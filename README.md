@@ -36,4 +36,42 @@ A lightweight Spring Boot application that provides real-time currency conversio
 
   ```bash
   mvn clean install
+3. **Run the Application:**
+
+  ```bash
+  mvn spring-boot:run
+The application will start on port 8080.
+
+### Testing with Postman
+    **GET Exchange Rates:**
+        **URL:**
+
+        ```bash
+        http://localhost:8080/rates?base=USD
+        **Method: GET**
+
+        **POST Currency Conversion:**
+          **URL:**
+
+          ```bash
+          http://localhost:8080/convert
+          **Method: POST**
+
+      **Headers:**
+        **Content-Type: application/json**
+
+      **Body Example:**
+
+        ```json
+        {
+            "from": "USD",
+            "to": "EUR",
+            "amount": 100
+        }
+
+
+
+
+
+
 
