@@ -180,7 +180,8 @@ currency-converter/
 │   │   │       │   ├── ConversionRequest.java
 │   │   │       │   └── ConversionResponse.java
 │   │   │       └── service/
-│   │   │           └── CurrencyService.java
+│   │   │           ├── CurrencyService.java
+│   │   │             └── AppConfig.java
 │   │   └── resources/
 │   │       └── application.properties
 │   └── test/
